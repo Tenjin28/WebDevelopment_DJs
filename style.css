@@ -1,0 +1,64 @@
+div.header{
+    background-color: rgb(216, 98, 44);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 500px;
+    color: rgb(0, 0, 0);                             /*find out how to add outline or shadowing*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+body{
+    background-color: rgb(128, 0, 32);
+    background-repeat: no-repeat;
+}
+
+div.body1{
+    width: 60%;
+    margin: auto;
+    border: black 2px;
+    border-style: solid;
+    background-color: rgb(216, 98, 44);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+}
+
+nav {
+	height: 2em;
+	padding: 0;
+	background-color: rgb(46, 0, 11);
+	border: 2px solid /* color here */;
+	margin-top: 0;
+    width: 63%;
+    margin: auto;
+}
+
+nav a {
+	display: block;
+	width: 140px;
+	text-align: center;
+	margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 18px;
+	float: left;
+	padding: 3px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+nav a:link, nav a:visited {
+	background-color: rgb(172, 79, 36);
+	color: rgb(0, 0, 0);
+}
+
+nav a:hover, nav a:active {
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.438);
+	color: rgba(205, 84, 46,1);
+	border: 1px solid /*color here*/;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(92, 101, 221);
+}
+
